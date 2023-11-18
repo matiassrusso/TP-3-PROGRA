@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/styles.css">
+    <title>Tu Sitio de Películas y Series</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=MuseoModerno:ital,wght@1,100&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=MuseoModerno:ital,wght@1,100&family=Oswald&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+
+</head>
+
+<body>
+    <header>
+
+        <div class="logo">
+            <a href="./index.html"><img src="img/WhatsApp Image 2023-09-08 at 10.59.04.jpg" alt=""></a>
+        </div>
+
+        <div class="barra_busqueda">
+            <form action="search-result.html" method="get">
+                <input id='busqueda'  type="text" name="q" placeholder="Buscar...">
+                <button type="submit">Buscar</button>
+            </form>
+        </div>
+
+
+        <div class="barra_inicio">
+            <nav>
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                   <li><a href="generos.html">Géneros</a></li>
+
+                </ul>
+            </nav>
+        </div>
+
+    </header>
+
+    <main>
+
+        <section class="movie-det default">
+            
+        </section>
+        <div class="peliculas-container movies-container active" ></div>
+
+    </main>
+
+    <footer>
+
+        <p>Equipo: Tomas Rein Matias Russo</p>
+        <div class="logo">
+            <img src="img/tmdb.svg" alt="">
+        </div>
+    </footer>
+    </footer>
+    <script src="./js/detail-series.js"></script>
+    <script src="./js/search-results.js"></script>
+</body>
+
+</html>

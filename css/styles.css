@@ -1,0 +1,279 @@
+ 
+header {
+    background:  #000000;
+    padding: 20px;    
+}
+
+.barra_busqueda {
+
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: 'Oswald', sans-serif;
+}
+
+h2 {
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    color: aliceblue;
+    text-align: center;
+    font-size:xxx-large;
+}
+
+body {
+    background:#000000;
+}
+
+.barra_inicio{
+    color: aqua;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 130%;
+}  
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;     
+}
+
+nav a {
+    
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    color: aliceblue; 
+}
+
+.barra_busqueda{
+    margin-left: 70%;
+    position: absolute;
+    top: 40px; 
+    left: 40px;
+}
+
+.logo {
+    text-align: left;
+    margin-top: 20px;
+  }
+  
+.logo img {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    }
+
+.movies-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+.movies-det-container {
+    text-align: left; 
+}
+
+
+
+.movie {
+    
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    color: aliceblue;
+    margin: 20px;
+    padding: 10px;
+    background-color: #f9f9f900;
+    flex:auto; 
+    margin-bottom: 20px; 
+    text-align: center; 
+}
+
+.movie img {
+    width:250px ; 
+    height: 400px;
+ 
+                
+}
+
+footer {
+    background: #000000;
+    background-size: auto;
+    color: aliceblue;
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+}
+.add-fav {
+    display: inline-block;
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+    font-size: 20px; 
+    color: white; 
+    text-decoration: none;
+}
+
+.add-fav:active i {
+    color: red; 
+}
+
+.fav {
+    display: inline-block;
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+    font-size: 20px; 
+    color: red; 
+    text-decoration: none;
+}
+
+.genre{
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    color: aliceblue;
+    text-align: center;
+    font-size:x-large;
+    text-decoration: underline;
+}
+
+.det-genre {
+    font-family: 'Oswald', sans-serif;
+    font-weight:300;
+    color: aliceblue;
+    text-align: center;
+    font-size:large;
+    font-size: 20px;
+}
+
+
+.movie-det{
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    color: aliceblue;
+    margin: 20px;
+    padding: 10px;
+    background-color: #f9f9f900;
+    flex:auto; 
+    margin-bottom: 20px; 
+    text-align: center;     
+}
+
+.movie-det h2{
+    font-size: 50px;
+}
+
+.movie-det h3{
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    color: aliceblue;
+    text-align: center;
+    font-size: 60px;
+    text-decoration: underline;
+    
+}
+.movie-det img{
+    float: left; 
+    width: 35%;
+    height: auto;
+    padding-left: 24px;
+
+}
+.movie-det p{
+    font-size: 23px;
+    font-weight: normal;
+
+}
+
+
+.genres-row {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.genre {
+    flex: 0 0 calc(33.33% - 20px); 
+    margin: 50px 0px;
+    text-align: center;
+    cursor: pointer;
+    font-size: 70px;
+}
+
+
+.active{
+    display: none!important;
+
+}
+
+@media (max-width: 767px) {
+    
+    header {
+        background:#000000;
+        color: #fff;
+        padding: 10px;
+    }
+
+    body {
+        font-size: 14px;
+        background:  #000000;
+    }
+
+    .logo img {
+        max-width: 80%;
+    }
+
+    .barra_busqueda {
+        margin-top: 10px;
+    }
+
+    .barra_busqueda input[type="text"] {
+        width: 100%;
+        padding: 5px;
+        font-size: 12px;
+    }
+
+    .barra_busqueda button {
+        padding: 5px 10px;
+        font-size: 12px;
+    }
+
+    .barra_inicio ul {
+        list-style: none;
+        padding: 0;
+    }
+
+    .barra_inicio li {
+        display: block;
+        margin-bottom: 10px;
+    }
+    .movies-container h2 {
+        width: 100%;
+        padding: 5px 10px;
+        font-size: 8px;
+    }
+
+    .movie-det img{
+        float: none; 
+        width: 100%;
+        height: auto;
+        padding-left: 1px;
+    }
+    
+    .movies-container h3 {
+        width: 100%;
+        padding: 5px 10px;
+        font-size: 25px;
+    }
+
+    }
+
+    
